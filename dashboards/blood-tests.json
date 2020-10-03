@@ -96,13 +96,6 @@
             "data": "",
             "hide": false,
             "refId": "B",
-            "target": "Hemoglobin",
-            "type": "timeseries"
-          },
-          {
-            "data": "",
-            "hide": false,
-            "refId": "C",
             "target": "Red blood cells",
             "type": "timeseries"
           }
@@ -195,13 +188,6 @@
             "refId": "A",
             "target": "Glucose",
             "type": "timeseries"
-          },
-          {
-            "data": "",
-            "hide": false,
-            "refId": "B",
-            "target": "Insulin",
-            "type": "timeseries"
           }
         ],
         "thresholds": [],
@@ -209,95 +195,6 @@
         "timeRegions": [],
         "timeShift": null,
         "title": "Diabetes Control",
-        "tooltip": {
-          "shared": true,
-          "sort": 0,
-          "value_type": "individual"
-        },
-        "type": "graph",
-        "xaxis": {
-          "buckets": null,
-          "mode": "time",
-          "name": null,
-          "show": true,
-          "values": []
-        },
-        "yaxes": [
-          {
-            "format": "short",
-            "label": null,
-            "logBase": 1,
-            "max": null,
-            "min": "0",
-            "show": true
-          },
-          {
-            "format": "short",
-            "label": null,
-            "logBase": 1,
-            "max": null,
-            "min": null,
-            "show": true
-          }
-        ],
-        "yaxis": {
-          "align": false,
-          "alignLevel": null
-        }
-      },
-      {
-        "aliasColors": {},
-        "bars": false,
-        "dashLength": 10,
-        "dashes": false,
-        "datasource": null,
-        "fill": 1,
-        "fillGradient": 0,
-        "gridPos": {
-          "h": 8,
-          "w": 24,
-          "x": 0,
-          "y": 16
-        },
-        "hiddenSeries": false,
-        "id": 6,
-        "legend": {
-          "avg": false,
-          "current": false,
-          "max": false,
-          "min": false,
-          "show": true,
-          "total": false,
-          "values": false
-        },
-        "lines": true,
-        "linewidth": 1,
-        "nullPointMode": "null",
-        "options": {
-          "dataLinks": []
-        },
-        "percentage": false,
-        "pointradius": 2,
-        "points": true,
-        "renderer": "flot",
-        "seriesOverrides": [],
-        "spaceLength": 10,
-        "stack": false,
-        "steppedLine": false,
-        "targets": [
-          {
-            "data": "",
-            "hide": false,
-            "refId": "A",
-            "target": "Creatinine",
-            "type": "timeseries"
-          }
-        ],
-        "thresholds": [],
-        "timeFrom": null,
-        "timeRegions": [],
-        "timeShift": null,
-        "title": "Kidney Function",
         "tooltip": {
           "shared": true,
           "sort": 0,
